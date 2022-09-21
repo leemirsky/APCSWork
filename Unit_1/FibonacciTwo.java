@@ -5,16 +5,14 @@ public class FibonacciTwo
         int a = 1;
         int b = 1;
 
-        System.out.println(a);
-        System.out.println(b);
-
-        for (int i=0; i<29; i++)
+        for (int i=0; i<15; i++)
         {
 
-          System.out.println(a+b);
+          System.out.println(a);
+          System.out.println(b);
 
-          a = b;
-          b = c;
+          a = a + b;
+          b = a + b;
 
         }
 
